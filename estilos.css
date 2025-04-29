@@ -5,11 +5,12 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
+#cabecera {
     background-color: #3498db;
     color: white;
     text-align: center;
     padding: 20px 0;
+    display: none;
 }
 
 header h1 {
