@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
+#cabecera {
     background-color: #3498db;
     color: white;
     text-align: center;
@@ -68,7 +68,6 @@ header h1 {
     color: #555;
 }
 
-/* Estilo del footer */
 #pie {
     background-color: #4e6b88;
     color: white;
