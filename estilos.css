@@ -10,10 +10,12 @@ body {
     color: white;
     text-align: center;
     padding: 20px 0;
+    display:  flex;
+    height: 10vh;
 }
 
 header h1 {
-    margin: 0;
+    margin: 20px;
 }
 
 #main-container {
@@ -28,7 +30,7 @@ header h1 {
     width: 250px;
     background-color: #2c3e50;
     padding: 20px;
-    height: 80vh;
+    height: 75vh;
     float: left;
 }
 
@@ -60,7 +62,9 @@ header h1 {
 }
 
 #contenido h2 {
-    color: #3498db;
+    color: #000000;
+    font-weight: lighter;
+    background-color: #746969;
 }
 
 #contenido p {
@@ -77,8 +81,59 @@ header h1 {
     bottom: 0;
     width: 100%;
     clear: both;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.footer-right {
+text-align: right; /* align the two lines to the right */
 }
 
 footer p {
     margin: 0;
+    padding: 0 20px;
+}
+
+#logo {
+    max-width: 100%;   /* never be wider than its container */
+    height: auto;      /* keep the aspect ratio */
+    display: block;    /* removes tiny gaps under images */
+    margin: 0 0;    /* center horizontally (optional) */
+    padding: 10px 0;     /* optional: space around image */
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.negrita-marron {
+    font-weight: bold;
+    color: brown;
+}
+
+.celeste {
+    color: rgb(42, 136, 165);
+}
+
+.markup-verde {
+    background-color: #28a745;  /* Verde */
+    color: white;
+    padding: 0 5px;
+}
+
+.markup-amarillo {
+    background-color: #f1c40f;  /* Amarillo */
+    color: black;
+    padding: 0 5px;
+}
+.markup-celeste {
+    background-color: #1686b9;  /* Amarillo */
+    color: black;
+    padding: 0 5px;
 }
