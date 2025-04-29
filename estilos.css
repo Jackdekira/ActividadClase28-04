@@ -31,6 +31,7 @@ header h1 {
     height: 80vh;
     float: left;
     order: 2;
+    display: none;
 }
 
 #menu ul {
@@ -58,6 +59,7 @@ header h1 {
     margin-right: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     float: left;
+    height: 80vh; /*Para que no quede la pagina "aplastada"*/
     order: 1;
 }
 
